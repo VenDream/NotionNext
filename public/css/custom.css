@@ -1,5 +1,10 @@
 /* 静态文件导入 自定义样式*/
 
 #theme-fukasawa .sideLeft hr{
-    opacity: .04;
+     opacity: .04;
+}
+
+/* 修改默认代码字体 */
+code[class*=language-], pre[class*=language-] {
+  font-family: LXGW WenKai Mono, Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace !important;
 }
