@@ -3,6 +3,12 @@
 #theme-fukasawa .sideLeft hr{
     opacity: .04;
 }
+
 .fa-info:before {
     content: "\f05a";
+}
+
+/* 修改默认代码字体 */
+code[class*=language-], pre[class*=language-] {
+  font-family: LXGW WenKai Mono, Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace !important;
 }
